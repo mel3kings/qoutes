@@ -15,7 +15,7 @@
     id="content"
     class="{randomEntry.class} h-4/6 w-3/4 shadow-md shadow-cyan-800/100 p-10"
   >
-    <div>"{randomEntry.qoute}" <br /><br /><br /> {randomEntry.book}</div>
+    <div class="text-lg">"{randomEntry.qoute}" <br /><br /><br /> {randomEntry.book}</div>
     <br />
     <div />
   </div>
