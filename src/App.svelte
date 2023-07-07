@@ -1,46 +1,49 @@
 <script>
-  import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
-  import Counter from './lib/Counter.svelte'
+  import twitterLogo from "./assets/twitter.svg";
+
+  let values = [
+    {
+      qoute:
+        "\"searing memoir of reckoning and healing by acclaimed journalist Stephanie Foo, investigating the little-understood science behind compl\"",
+      "primary-color": "#edB989",
+      "contrast-color": "edB989",
+      book: "What My Bones Know: A Memoir of Healing from Complex Trauma",
+      image:
+        "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1635810826i/59515912._SY180_.jpg",
+    },
+  ];
 </script>
 
 <main>
-  <div>
-    <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-      <img src={viteLogo} class="logo" alt="Vite Logo" />
-    </a>
-    <a href="https://svelte.dev" target="_blank" rel="noreferrer">
-      <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
-    </a>
-  </div>
-  <h1>Vite + Svelte</h1>
-
-  <div class="card">
-    <Counter />
+  <div class="flex">
+    <a
+      class="twitter-share-button"
+      href="https://twitter.com/intent/tweet?text={values[0].qoute}"
+      data-size="large"
+    >
+      <img src={twitterLogo} class="logo" alt="Svelte Logo" /></a
+    >
   </div>
 
-  <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank" rel="noreferrer">SvelteKit</a>, the official Svelte app framework powered by Vite!
-  </p>
-
-  <p class="read-the-docs">
-    Click on the Vite and Svelte logos to learn more
-  </p>
+  <div class={`h-4/6 w-screen shadow-md shadow-cyan-800/100 p-10 bg-gray-800`}>
+    <div class="read-the-docs">{values[0].qoute}</div>
+  </div>
 </main>
 
-<style>
+<style lang="postcss">
   .logo {
     height: 6em;
     padding: 1.5em;
     will-change: filter;
     transition: filter 300ms;
   }
+
   .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
+    filter: drop-shadow(0 0 1em #01AAEC);
   }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
-  }
+
+
+
   .read-the-docs {
     color: #888;
   }
