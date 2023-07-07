@@ -1,23 +1,6 @@
 <script>
   import twitterLogo from "./assets/twitter.svg";
-
-  let values = [
-    {
-      qoute:
-        'searing maaaemoir of reckoning and healing by acclaimed journalist Stephanie Foo, investigating the little-understood science behind compl',
-      book: "What My Bones Know: A Memoir of Healing from Complex Trauma",
-      class: "deep-work",
-      hashtags: "%23goodreads %23qoutes",
-    },
-      {
-      qoute:
-        'Blasg',
-      book: "What My Bones Know: A Memoir of Healing from Complex Trauma",
-      class: "deep-work",
-      hashtags: "%23goodreads %23qoutes",
-    },
-  ];
-
+  import values from "./data.json";
 
   function getRandomEntry() {
     const randomIndex = Math.floor(Math.random() * values.length);
@@ -32,15 +15,14 @@
     id="content"
     class="{randomEntry.class} h-4/6 w-3/4 shadow-md shadow-cyan-800/100 p-10"
   >
-    <div>"{randomEntry.qoute}" <br/><br/><br/> {randomEntry.book}</div>
+    <div>"{randomEntry.qoute}" <br /><br /><br /> {randomEntry.book}</div>
     <br />
     <div />
   </div>
   <div class="flex">
     <a
       class="twitter-share-button"
-      href="https://twitter.com/intent/tweet?text={randomEntry
-        .qoute} %0A %0A {randomEntry.book} %0A %0A {randomEntry.hashtags}"
+      href="https://twitter.com/intent/tweet?text={randomEntry.qoute} %0A %0A {randomEntry.book} %0A %0A {randomEntry.hashtags}"
       data-size="large"
     >
       <img src={twitterLogo} class="logo" alt="Svelte Logo" /></a
