@@ -82,3 +82,379 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.deep-work {
+  color: #000000;
+  background-color: #f5d83c;
+  box-shadow: 10px 10px 5px #000000;
+}
+.so-good {
+  color: #ffffff;
+  background-color: #f35b1f;
+  box-shadow: 5px 5px 5px #ffffff;
+}
+.random-walk {
+  color: #065637;
+  background-color: #f7f7f7;
+  box-shadow: 5px 5px 5px #065637;
+}
+.code-complete {
+  color: #ffffff;
+  background-color: #090a0e;
+  box-shadow: 5px 5px 5px #ffffff;
+}
+.clean-architecture {
+  color: #ffffff;
+  background-color: #090a0e;
+  box-shadow: 5px 5px 5px #ffffff;
+}
+.google-coding {
+  color: #a81522;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px #a81522;
+}
+.why-sleep {
+  color: #b74a2e;
+  background-color: #e7e2de;
+  box-shadow: 5px 5px 5px #b74a2e;
+}
+.extreme-ownership {
+  color: #ffffff;
+  background-color: #000000;
+  box-shadow: 5px 5px 5px #ffffff;
+}
+.bed-procrustes {
+  color: #000000;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px #000000;
+}
+
+.antifragile {
+  color: #ffffff;
+  background-color: #c0103d;
+  box-shadow: 5px 5px 5px #000000;
+}
+.power-now {
+  color: #ffffff;
+  background-color: #0096d5;
+  box-shadow: 5px 5px 5px #ffffff;
+}
+.art-of-war {
+  color: #af9157;
+  background-color: #d32e3d;
+  box-shadow: 5px 5px 5px #af9157;
+}
+.black-swan {
+  color: #ffffff;
+  background-color: #c66125;
+  box-shadow: 5px 5px 5px #ffffff;
+}
+.leaders-last {
+  color: #9f8b61;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px #9f8b61;
+}
+.millionaire-next {
+  color: #062422;
+  background-color: #e2dfe6;
+  box-shadow: 5px 5px 5px #062422;
+}
+.unshakeable {
+  color: #7c6e4f;
+  background-color: #000000;
+  box-shadow: 5px 5px 5px #7c6e4f;
+}
+.start-why {
+  color: #b44111;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px #b44111;
+}
+.lose-million {
+  color: #303030;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px #303030;
+}
+.twelve-rules {
+  color: #b1754c;
+  background-color: #e9e4de;
+  box-shadow: 5px 5px 5px #b1754c;
+}
+.digital-minimalism {
+  color: #a81522;
+  background-color: #dff0fd;
+  box-shadow: 5px 5px 5px #a81522;
+}
+.will-to-power {
+  color: #b1754c;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px #b1754c;
+}
+.barefoot-investor {
+  color: #1b4a6e;
+  background-color: #e4d7aa;
+  box-shadow: 5px 5px 5px #1b4a6e;
+}
+.fast-and-slow {
+  color: #888682;
+  background-color: #f4f3ef;
+  box-shadow: 5px 5px 5px #888682;
+}
+.courage-dislike {
+  color: #783434;
+  background-color: #fffdfe;
+  box-shadow: 5px 5px 5px #783434;
+}
+.freakonomics {
+  color: #f09018;
+  background-color: #78a248;
+  box-shadow: 5px 5px 5px #f09018;
+}
+.ego-enemy {
+  color: #ffffff;
+  background-color: #cb1213;
+  box-shadow: 5px 5px 5px #ffffff;
+}
+.stillness-key {
+  color: #ffffff;
+  background-color: #040000;
+  box-shadow: 5px 5px 5px #ffffff;
+}
+.moved-cheese {
+  color: #d78a8a;
+  background-color: #fefeff;
+  box-shadow: 5px 5px 5px #d78a8a;
+}
+.think-grow-rich {
+  color: #242422;
+  background-color: #a6a892;
+  box-shadow: 5px 5px 5px #242422;
+}
+.obstacle-way {
+  color: #ffffff;
+  background-color: #363775;
+  box-shadow: 5px 5px 5px #ffffff;
+}
+.sapiens {
+  color: #e64312;
+  background-color: #fdfcfa;
+  box-shadow: 5px 5px 5px #e64312;
+}
+.twenty-one-lessons {
+  color: #b57f38;
+  background-color: #fffce9;
+  box-shadow: 5px 5px 5px #b57f38;
+}
+.make-this-up {
+  color: #ffffff;
+  background-color: #4c4f4c;
+  box-shadow: 5px 5px 5px #ffffff;
+}
+.laws-of-power {
+  color: #acb311;
+  background-color: #180145;
+  box-shadow: 5px 5px 5px #acb311;
+}
+.mastery {
+  color: #c8ac33;
+  background-color: #242021;
+  box-shadow: 5px 5px 5px #c8ac33;
+}
+.intelligent-investor {
+  color: #FFCBC7;
+  background-color: #9d1c1f;
+  box-shadow: 5px 5px 5px #FFCBC7;
+}
+.thirty-three-war {
+  color: #a81631;
+  background-color: #d6d6d8;
+  box-shadow: 5px 5px 5px #a81631;
+}
+.art-of-seduction {
+  color: #b89e43;
+  background-color: #e1386c;
+  box-shadow: 5px 5px 5px #b89e43;
+}
+.david-goliath {
+  color: #f6f8f2;
+  background-color: #51483f;
+  box-shadow: 5px 5px 5px #f6f8f2;
+}
+.talk-strangers {
+  color: #efede3;
+  background-color: #6d322b;
+  box-shadow: 5px 5px 5px #efede3;
+}
+.cant-hurt-me {
+  color: #ba8e2c;
+  background-color: #242220;
+  box-shadow: 5px 5px 5px #ba8e2c;
+}
+.blink {
+  color: #435257;
+  background-color: #3587af;
+  box-shadow: 5px 5px 5px #748a91;
+}
+.tipping-point {
+  color: #c50101;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px #c50101;
+}
+.outliers {
+  color: #20201e;
+  background-color: #f6f5f0;
+  box-shadow: 5px 5px 5px #20201e;
+}
+.tools-titans {
+  color: #f0da14;
+  background-color: #e74622;
+  box-shadow: 5px 5px 5px #f0da14;
+}
+.power-of-habit {
+  color: #0a0a0a;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px #0a0a0a;
+}
+.mindset {
+  color: #5fb1c3;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px #5fb1c3;
+}
+.four-hour {
+  color: #b0a25e;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px #b0a25e;
+}
+.how-we-learn {
+  color: #12091d;
+  background-color: #abaead;
+  box-shadow: 5px 5px 5px #12091d;
+}
+.think-clearly {
+  color: #7a7d6c;
+  background-color: #f1f6e0;
+  box-shadow: 5px 5px 5px #7a7d6c;
+}
+.grit {
+  color: #ffffff;
+  background-color: #151bee;
+  box-shadow: 5px 5px 5px #ffffff;
+}
+.bulletproof-ps {
+  color: #3c4041;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px #3c4041;
+}
+.seven-habits {
+  color: #ffffff;
+  background-color: #014679;
+  box-shadow: 5px 5px 5px #ffffff;
+}
+.principles {
+  color: #ffffff;
+  background-color: #272002;
+  box-shadow: 5px 5px 5px #ffffff;
+}
+.richest-man {
+  color: #c0ac74;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px #c0ac74;
+}
+.atomic-habits {
+  color: #c0ac74;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px #c0ac74;
+}
+.quiet {
+  color: #a69d9d;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px #a69d9d;
+}
+.how-we-learn-2 {
+  color: #202124;
+  background-color: #e94604;
+  box-shadow: 5px 5px 5px #202124;
+}
+.stop-worrying {
+  color: #a7172a;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px #a7172a;
+}
+.win-friends {
+  color: #272002;
+  background-color: #97b5c8;
+  box-shadow: 5px 5px 5px #272002;
+}
+.split-difference {
+  color: #272002;
+  background-color: #f6e603;
+  box-shadow: 5px 5px 5px #272002;
+}
+.nudge {
+  color: #272002;
+  background-color: #f6e603;
+  box-shadow: 5px 5px 5px #272002;
+}
+.algorithms {
+  color: #f6e603;
+  background-color: #272002;
+  box-shadow: 5px 5px 5px #f6e603;
+}
+.chatter {
+  color: #f6e603;
+  background-color: #f36203;
+  box-shadow: 5px 5px 5px #f6e603;
+}
+.do-hard-things {
+  color: #272002;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px #272002;
+}
+.factfulness {
+  color: #272002;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px #272002;
+}
+.fooled-by-randomness {
+  color: #ffffff;
+  background-color: #272002;
+  box-shadow: 5px 5px 5px #ffffff;
+}
+.leadership-language {
+  color: #ffffff;
+  background-color: #cc1f25;
+  box-shadow: 5px 5px 5px #ffffff;
+}
+.never-finished {
+  color: #272002;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px #272002;
+}
+.stumbling-happines {
+  color: #e45992;
+  background-color: #272002;
+  box-shadow: 5px 5px 5px #e45992;
+}
+.staff-engineers-path {
+  color: #9099a3;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px #9099a3;
+}
+.david-goliath {
+  color: #ffffff;
+  background-color: #272002;
+  box-shadow: 5px 5px 5px #ffffff;
+}
+.outliers {
+  color: #282828;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px #282828;
+}
+.software-craftsman {
+  color: #ffffff;
+  background-color: #282828;
+  box-shadow: 5px 5px 5px #ffffff;
+}
+.subtle-art{
+  color: #ffffff;
+  background-color: #282828;
+  box-shadow: 5px 5px 5px #ffffff;
+}

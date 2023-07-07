@@ -11,11 +11,11 @@
 </script>
 
 <main>
-  <div
-    id="content"
-    class="{randomEntry.class} h-4/6 w-3/4 shadow-md shadow-cyan-800/100 p-10"
-  >
-    <div class="text-lg">"{randomEntry.qoute}" <br /><br /><br /> {randomEntry.book}</div>
+  <div id="content" class="{randomEntry.class} h-4/6 w-3/4 shadow-md p-10">
+    <div class="text-xl font-bold">
+      "{randomEntry.qoute}" <br /><br /><br />
+      <p class="font-medium">{randomEntry.book}</p>
+    </div>
     <br />
     <div />
   </div>
@@ -40,11 +40,5 @@
 
   .logo:hover {
     filter: drop-shadow(0 0 1em #01aaec);
-  }
-
-  .deep-work {
-    color: #000000;
-    background-color: #f5d83c;
-    box-shadow: 10px 10px 5px #000000;
   }
 </style>
