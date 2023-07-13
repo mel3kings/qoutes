@@ -11,7 +11,10 @@
 </script>
 
 <main>
-  <div id="content" class="{randomEntry.class} h-4/6 w-3/4 shadow-md p-10">
+  <div
+    id="content"
+    class="{randomEntry.class} h-4/6 lg:w-3/4 md:w-full sm:w-full shadow-md p-10"
+  >
     <div class="text-xl font-bold">
       "{randomEntry.qoute}" <br /><br /><br />
       <p class="font-medium">{randomEntry.book}</p>
