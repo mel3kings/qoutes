@@ -1,21 +1,17 @@
 <script>
-  // @ts-nocheck
   import twitterLogo from "./assets/twitter.svg";
   import values from "./data.json";
   import { onMount } from "svelte";
   import auth from "./authService";
-  // @ts-ignore
-  import { isAuthenticated, user, user_tasks, tasks } from "./store";
+  import { isAuthenticated, user, tasks } from "./store";
+
+  let auth0Client;
 
   function getRandomEntry() {
     const randomIndex = Math.floor(Math.random() * values.length);
     return values[randomIndex];
   }
-
   $: randomEntry = getRandomEntry();
-
-  let auth0Client;
-  let newTask;
 
   onMount(async () => {
     auth0Client = await auth.createClient();
@@ -24,42 +20,12 @@
     user.set(await auth0Client.getUser());
   });
 
-  // @ts-ignore
   function login() {
     auth.loginWithPopup(auth0Client);
   }
 
-  // @ts-ignore
   function logout() {
     auth.logout(auth0Client);
-  }
-
-  // @ts-ignore
-  function addItem() {
-    let newTaskObject = {
-      id: genRandom(),
-      description: newTask,
-      completed: false,
-      // @ts-ignore
-      user: $user.email,
-    };
-
-    console.log(newTaskObject);
-
-    let updatedTasks = [...$tasks, newTaskObject];
-
-    tasks.set(updatedTasks);
-
-    newTask = "";
-  }
-
-  function genRandom(length = 7) {
-    var chars =
-      "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    var result = "";
-    for (var i = length; i > 0; --i)
-      result += chars[Math.round(Math.random() * (chars.length - 1))];
-    return result;
   }
 </script>
 
@@ -84,16 +50,16 @@
       <img src={twitterLogo} class="logo" alt="Svelte Logo" /></a
     >
     <div class="pt-10">
-    {#if !$isAuthenticated}
-      <a
-        class="btn btn-primary btn-lg mr-auto ml-auto"
-        href="/#"
-        role="button"
-        on:click={login}>Log In</a
-      >
-    {:else}
-      <a class="nav-link" href="/#" on:click={logout}>Log Out</a>
-    {/if}
+      {#if !$isAuthenticated}
+        <a
+          class="btn btn-primary btn-lg mr-auto ml-auto"
+          href="/#"
+          role="button"
+          on:click={login}>Log In</a
+        >
+      {:else}
+        <a class="nav-link" href="/#" on:click={logout}>Log Out</a>
+      {/if}
     </div>
   </div>
 </main>
