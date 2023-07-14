@@ -5,7 +5,7 @@ import { config } from "../auth_config";
 async function createClient() {
   let auth0Client = await createAuth0Client({
     domain: config.domain,
-    clientId: config.client_id,
+    clientId: config.clientId,
   });
 
   return auth0Client;
