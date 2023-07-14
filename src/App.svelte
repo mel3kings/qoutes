@@ -42,22 +42,30 @@
     <div />
   </div>
   <div class="flex">
-    <a
-      class="twitter-share-button"
-      href="https://twitter.com/intent/tweet?text={randomEntry.qoute} %0A %0A {randomEntry.book} %0A %0A {randomEntry.hashtags}"
-      data-size="large"
-    >
-      <img src={twitterLogo} class="logo" alt="Svelte Logo" /></a
-    >
     <div class="pt-10">
       {#if !$isAuthenticated}
+        <a
+          class="twitter-share-button disable"
+          href="/"
+          data-size="large"
+          on:click={() => false}
+        >
+          <img src={twitterLogo} class="disabledlogo grayscale" alt="Svelte Logo" /></a
+        >
         <a
           class="btn btn-primary btn-lg mr-auto ml-auto"
           href="/#"
           role="button"
-          on:click={login}>Log In</a
+          on:click={login}>Login to Tweet</a
         >
       {:else}
+        <a
+          class="twitter-share-button disable"
+          href="https://twitter.com/intent/tweet?text={randomEntry.qoute} %0A %0A {randomEntry.book} %0A %0A {randomEntry.hashtags}"
+          data-size="large"
+        >
+          <img src={twitterLogo} class="logo" alt="Svelte Logo" /></a
+        >
         <a class="nav-link" href="/#" on:click={logout}>Log Out</a>
       {/if}
     </div>
@@ -74,5 +82,15 @@
 
   .logo:hover {
     filter: drop-shadow(0 0 1em #01aaec);
+  }
+  .disabledlogo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+
+  .disabledlogo:hover {
+    filter: drop-shadow(0 0 1em #838a8d);
   }
 </style>

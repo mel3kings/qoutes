@@ -24,3 +24,4 @@ dist-ssr
 *.sw?
 
 auth_config.js
+.env

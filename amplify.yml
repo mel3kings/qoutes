@@ -6,6 +6,7 @@ frontend:
         - npm install
     build:
       commands:
+        - echo "echo "export const config = { domain: $DOMAIN, clientId: $CLIENT_ID};" >> auth_config.js
         - npm run build
   artifacts:
     baseDirectory: dist
