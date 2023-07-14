@@ -15,5 +15,8 @@
     "svelte": "^4.0.3",
     "tailwindcss": "^3.3.2",
     "vite": "^4.4.0"
+  },
+  "dependencies": {
+    "@auth0/auth0-spa-js": "^2.1.0"
   }
 }

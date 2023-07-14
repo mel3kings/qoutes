@@ -2,6 +2,12 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
+    screens: {
+      xs: "390px", // min-width
+      sm: "500px",
+      md: "820px",
+      lg: "900px",
+    },
     extend: {
       colors: {
         transparent: 'transparent',
