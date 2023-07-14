@@ -50,13 +50,16 @@
           data-size="large"
           on:click={() => false}
         >
-          <img src={twitterLogo} class="disabledlogo grayscale" alt="Svelte Logo" /></a
+          <img
+            src={twitterLogo}
+            class="disabledlogo grayscale"
+            alt="Svelte Logo"
+          /></a
         >
-        <a
-          class="btn btn-primary btn-lg mr-auto ml-auto"
-          href="/#"
-          role="button"
-          on:click={login}>Login to Tweet</a
+        <button
+          type="button"
+          class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+          on:click={login}>Login to Tweet</button
         >
       {:else}
         <a
@@ -66,7 +69,11 @@
         >
           <img src={twitterLogo} class="logo" alt="Svelte Logo" /></a
         >
-        <a class="nav-link" href="/#" on:click={logout}>Log Out</a>
+        <button
+          type="button"
+          class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+          on:click={logout}>Log Out</button
+        >
       {/if}
     </div>
   </div>
@@ -88,9 +95,5 @@
     padding: 1.5em;
     will-change: filter;
     transition: filter 300ms;
-  }
-
-  .disabledlogo:hover {
-    filter: drop-shadow(0 0 1em #838a8d);
   }
 </style>
