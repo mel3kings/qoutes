@@ -1,11 +1,11 @@
 import { createAuth0Client } from "@auth0/auth0-spa-js";
 import { user, isAuthenticated, popupOpen } from "./store";
-import { DOMAIN, CLIENT_ID } from "../config";
+import { config } from "../auth_config";
 
 async function createClient() {
   let auth0Client = await createAuth0Client({
-    domain: DOMAIN,
-    clientId: CLIENT_ID,
+    domain: config.domain,
+    clientId: config.client_id,
   });
 
   return auth0Client;
