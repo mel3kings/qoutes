@@ -1,5 +1,6 @@
 <script>
   import twitterLogo from "./assets/twitter.svg";
+  import googleLogo from "./assets/google-color.svg"
   import values from "./data.json";
   import { onMount } from "svelte";
   import auth from "./authService";
@@ -35,7 +36,7 @@
     class="{randomEntry.class} h-4/6 lg:w-3/4 md:w-full sm:w-full shadow-md p-10"
   >
     <div class="text-xl font-bold">
-      "{randomEntry.qoute}" <br /><br /><br />
+      {randomEntry.qoute} <br /><br /><br />
       <p class="font-medium">{randomEntry.book}</p>
     </div>
     <br />
@@ -58,8 +59,16 @@
         >
         <button
           type="button"
-          class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-          on:click={login}>Login to Tweet</button
+          class="flex text-white font-black bg-gray-100 hover:bg-gray-800 focus:ring-4 focus:ring-gray-300 
+          font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-600 dark:hover:bg-gray-700 
+          focus:outline-none dark:focus:ring-gray-800"
+          on:click={login}>
+          <img
+            src={googleLogo}
+            class="h-5 w-6 pr-2"
+            alt="Google Logo"
+          />
+          Login via Google to Tweet</button
         >
       {:else}
         <a
@@ -71,7 +80,7 @@
         >
         <button
           type="button"
-          class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+          class="text-gray-900 bg-white font-black border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
           on:click={logout}>Log Out</button
         >
       {/if}

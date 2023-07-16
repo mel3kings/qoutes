@@ -139,7 +139,7 @@ button:focus-visible {
   box-shadow: 5px 5px 5px #ffffff;
 }
 .art-of-war {
-  color: #af9157;
+  color: #dfd8ca;
   background-color: #d32e3d;
   box-shadow: 5px 5px 5px #af9157;
 }
@@ -205,7 +205,7 @@ button:focus-visible {
 }
 .freakonomics {
   color: #f09018;
-  background-color: #78a248;
+  background-color: #192b03;
   box-shadow: 5px 5px 5px #f09018;
 }
 .ego-enemy {
@@ -269,8 +269,8 @@ button:focus-visible {
   box-shadow: 5px 5px 5px #a81631;
 }
 .art-of-seduction {
-  color: #b89e43;
-  background-color: #e1386c;
+  color: #b2aa8e;
+  background-color: #a50d3b;
   box-shadow: 5px 5px 5px #b89e43;
 }
 .david-goliath {
@@ -311,7 +311,7 @@ button:focus-visible {
 .power-of-habit {
   color: #0a0a0a;
   background-color: #ffffff;
-  box-shadow: 5px 5px 5px #0a0a0a;
+  box-shadow: 5px 5px 5px #af9c9c;
 }
 .mindset {
   color: #5fb1c3;
@@ -381,17 +381,17 @@ button:focus-visible {
 .win-friends {
   color: #272002;
   background-color: #97b5c8;
-  box-shadow: 5px 5px 5px #272002;
+  box-shadow: 5px 5px 5px #9d8a37;
 }
 .split-difference {
   color: #272002;
   background-color: #f6e603;
-  box-shadow: 5px 5px 5px #272002;
+  box-shadow: 5px 5px 5px #a3a29c;
 }
 .nudge {
   color: #272002;
   background-color: #f6e603;
-  box-shadow: 5px 5px 5px #272002;
+  box-shadow: 5px 5px 5px #9d8a37;
 }
 .algorithms {
   color: #f6e603;
@@ -406,12 +406,12 @@ button:focus-visible {
 .do-hard-things {
   color: #272002;
   background-color: #ffffff;
-  box-shadow: 5px 5px 5px #272002;
+  box-shadow: 5px 5px 5px #9d8a37;
 }
 .factfulness {
   color: #272002;
   background-color: #ffffff;
-  box-shadow: 5px 5px 5px #272002;
+  box-shadow: 5px 5px 5px #9d8a37;
 }
 .fooled-by-randomness {
   color: #ffffff;
@@ -426,7 +426,7 @@ button:focus-visible {
 .never-finished {
   color: #272002;
   background-color: #ffffff;
-  box-shadow: 5px 5px 5px #272002;
+  box-shadow: 5px 5px 5px #9d8a37;
 }
 .stumbling-happines {
   color: #e45992;
@@ -446,7 +446,7 @@ button:focus-visible {
 .outliers {
   color: #282828;
   background-color: #ffffff;
-  box-shadow: 5px 5px 5px #282828;
+  box-shadow: 5px 5px 5px #9d8a37;
 }
 .software-craftsman {
   color: #ffffff;
