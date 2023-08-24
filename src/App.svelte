@@ -1,5 +1,5 @@
 <script>
-  import twitterLogo from "./assets/twitter.svg";
+  import twitterLogo from "./assets/twitter_x.svg";
   import googleLogo from "./assets/google-color.svg"
   import values from "./data.json";
   import { onMount } from "svelte";
@@ -43,8 +43,9 @@
     <div />
   </div>
   <div class="flex">
+    
     <div class="pt-10">
-      {#if !$isAuthenticated}
+      {#if $isAuthenticated}
         <a
           class="twitter-share-button disable"
           href="/"
@@ -78,13 +79,12 @@
         >
           <img src={twitterLogo} class="logo" alt="Svelte Logo" /></a
         >
-        <button
+        <!-- <button
           type="button"
           class="text-gray-900 bg-white font-black border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
           on:click={logout}>Log Out</button
-        >
+        > -->
       {/if}
-    </div>
   </div>
 </main>
 
@@ -94,6 +94,8 @@
     padding: 1.5em;
     will-change: filter;
     transition: filter 300ms;
+     filter: drop-shadow(0 0 1em #ffffff);
+    
   }
 
   .logo:hover {
