@@ -31,13 +31,15 @@
 </script>
 
 <main>
+  <div class="w-full bg-amber-500 text-xl font-bold"> ⚠️ We are moving to <a class="text-white hover:text-black hover:underline" href="http://qoutesapp.com/?ref=qoutesv1">Qoutesapp.com</a></div>
   <div
     id="content"
     class="{randomEntry.class} h-4/6 lg:w-full md:w-full sm:w-full shadow-md p-10"
   >
+  
     <div class="text-xl font-bold">
-      {randomEntry.qoute} <br /><br /><br />
-      <p class="font-medium">{randomEntry.book}</p>
+      {randomEntry.body} <br /><br /><br />
+      <p class="font-medium">{randomEntry.title}</p>
     </div>
     <br />
     <div />
