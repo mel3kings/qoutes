@@ -1,6 +1,4 @@
 <script>
-  import twitterLogo from "./assets/twitter_x.svg";
-  import googleLogo from "./assets/google-color.svg"
   import values from "./data.json";
   import { onMount } from "svelte";
   import auth from "./authService";
